@@ -1,0 +1,68 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>signup</title>
+  <style>
+    .signup {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 400px;
+      padding: 40px;
+      transform: translate(-50%,-50%);
+      background-color: rgb(149, 128, 177);
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+    
+    h3 {
+      margin: 0;
+      padding: 0;
+      color: #333;
+      text-align: center;
+      border: none;
+    }
+    
+    .inputs {
+      text-align: right;
+    }
+    
+    .submit-btn {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .reset-btn {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="signup">
+    <h3><b>WELCOME</b></h3>
+    <hr>
+    <div class="inputs">
+      name <input type="text"><br>
+      username <input type="text"><br>
+      Email <input type="email"><br>
+      mobile <input type="tel"><br>
+      dob <input type="date"><br>
+      password <input type="password"><br>
+      confirm password <input type="password"><br>
+      <div>
+      <a href="otp.html" class="submit-btn">
+        <button>submit</button> </a>
+      </div>
+      <div class="reset-btn">
+        <form>
+        <button type="reset">Reset</button>
+      </div>
+    <hr>
+    already have an account? <br>
+    <a href="login.html">login</a>
+    </form>
+</body>
+</html>
